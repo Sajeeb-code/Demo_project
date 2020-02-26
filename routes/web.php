@@ -38,6 +38,20 @@ Route :: post('/product/create','Hellocontroller@create')->name('product_create'
 
 Route :: get('/product/list','Hellocontroller@product_list')->name('product_list');
 
+Route :: get('/product/delete/{id}','Hellocontroller@delete_product')->name('delete_product');
+
+Route :: get('/product/edit/{id}','Hellocontroller@edit_product')->name('edit_product');
+
+Route :: post('/product/update','Hellocontroller@afterupdate')->name('afterupdate');
+
+Route :: get('/product/catagory','CatagoryController@catagory')->name('Catagory');
+
+Route :: post('/product/catagory_create','CatagoryController@catagory_create')->name('Catagory_create');
+
+// Route :: get('/product/retrive','CatagoryController@retrive_cata')->name('retrive_cata');
+
+
+
 
 // Route :: get('/about',function(){
 //     echo "Name: "."Sajeeb Prodhan"."<br>";

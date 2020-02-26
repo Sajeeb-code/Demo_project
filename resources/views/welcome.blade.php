@@ -89,6 +89,7 @@
                     <a href="{{ route('Contact') }}">Contact</a>         <!--// route goes to name-->
                     <a href="{{ route('About') }}">About</a>
                     <a href="{{ route('Register') }}">Register</a>
+                    <a href="{{ route('Catagory') }}">Add Catagory</a>
                 
                 </div>
             </div>
